@@ -1,0 +1,132 @@
+ 
+@media (max-width: 575.98px) {
+    .hero-font {
+        font-size: 2.4rem !important;
+    }
+ 
+    .hero-section {
+        min-height: auto;
+        padding-top: 2.5rem;
+        padding-bottom: 3.5rem;
+    }
+ 
+    .img-border {
+        height: 230px;
+        border-radius: 10px;
+    }
+ 
+    .stat-card {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -18px;
+        min-width: 155px;
+    }
+ 
+    .btn-sparkle,
+    .btn-outline-lime {
+        width: 100%;
+        padding-top: 0.85rem !important;
+        padding-bottom: 0.85rem !important;
+        font-size: 0.95rem;
+    }
+}
+ 
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .hero-font {
+        font-size: 2.8rem !important;
+    }
+ 
+    .hero-section {
+        min-height: auto;
+        padding-top: 2.5rem;
+        padding-bottom: 3.5rem;
+    }
+ 
+    .img-border {
+        height: 280px;
+        max-width: 480px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+ 
+    .stat-card {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -18px;
+    }
+}
+ 
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .hero-font {
+        font-size: 3.2rem !important;
+    }
+ 
+    .img-border {
+        height: 320px;
+        max-width: 520px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+ 
+    .stat-card {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -18px;
+    }
+}
+ 
+@media (min-width: 992px) {
+    .hero-section {
+        min-height: calc(100vh - 74px);
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+ 
+    .hero-font {
+        font-size: 3rem !important;
+    }
+ 
+    .img-border {
+        width: 460px;
+        height: 330px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: 0;
+    }
+ 
+    .stat-card {
+        left: 30px;
+        bottom: -15px;
+        transform: none;
+        padding: 1rem 1.25rem !important;
+    }
+}
+ 
+@media (min-width: 1200px) {
+    .hero-font {
+        font-size: 3.5rem !important;
+    }
+ 
+    .img-border {
+        width: 540px;
+        height: 370px;
+    }
+ 
+    .stat-card {
+        left: 50px;
+        bottom: -10px;
+        padding: 1.1rem 1.4rem !important;
+    }
+}
+ 
+@media (min-width: 1400px) {
+    .hero-font {
+        font-size: 4rem !important;
+    }
+ 
+    .img-border {
+        width: 620px;
+        height: 410px;
+    }
+}
+ 
